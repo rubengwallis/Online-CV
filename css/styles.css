@@ -6,7 +6,7 @@ body {
 }
 
 #title {
-    background-image: url("images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+    background-image: url("/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #about {
-    background: url("images/texture.png");
+    background: url("/images/texture.png");
     color:white;
     padding: 10% 0;
 
@@ -130,7 +130,7 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
     padding-top: 10%;
     text-align: center;
-    background: url("images/keefe.jpg");
+    background: url("/images/keefe.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -232,7 +232,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     margin: auto;
     padding-top: 10px;
-    background: url("images/texture.png");
+    background: url("/images/texture.png");
 
 }
 
@@ -242,7 +242,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #footer {
-    background: url("images/texture.png");
+    background: url("/images/texture.png");
     color:white;
     text-align: center;
     padding:7% 15%;
@@ -302,7 +302,7 @@ section {
 
     #title {
         display: inline-block;
-        background: url("images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+        background: url("/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
