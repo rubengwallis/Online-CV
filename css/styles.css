@@ -343,6 +343,16 @@ section {
         width: 50%;
         padding-top: 0;
     }
+    
+    #content  .header {
+        padding-top: 0;
+        font-size: 1.5rem;
+    }
+    
+     #content h3 {
+        font-size: 1rem;
+    }
+
 
     #content .feature-icon {
     transform: scale(0.4);
@@ -364,6 +374,10 @@ section {
         padding: 0;
         color: white;
         font-size: 1rem;
+    }
+    
+     #projects h4 {
+        font-size: 1.2rem;
     }
 
     #projects .container-fluid {
