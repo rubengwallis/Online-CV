@@ -344,10 +344,16 @@ section {
         padding-top: 0;
     }
 
-    .header {
+     .header {
         padding-top: 0;
         font-size: 1.2rem;
+        padding-right: 15%;
     }
+
+    .projects-p {
+        padding-right: 15%;
+    }
+
 
     #content {
         padding-top: 0;
