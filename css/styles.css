@@ -300,12 +300,12 @@ section {
 
 @media (max-width:1028px) {
 
-    #title {
+       #title {
         display: inline;
     }
 
     .wrapper {
-        background: url("../images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+        background: url("/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -313,14 +313,15 @@ section {
         background-size: cover;   
         width:100%;
         background-size:100% auto;
-        position: relative;
     }
 
-    .collapse {
-        position:absolute;
-        z-index:1;
-        padding-top: 60%;
+    .collapse
+    {
+    position:absolute;
+    z-index:1;
+    padding-top: 60%;
     }
+ 
 
     .title-row h2{
         font-size: .75rem;
