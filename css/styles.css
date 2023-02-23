@@ -300,8 +300,16 @@ section {
 
 @media (max-width:1028px) {
 
-       #title {
-        display: inline;
+          #title {
+        display: inline-block;
+        background: url("/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;   
+        width:100%;
+        background-size:100% auto;
     }
 
     .wrapper {
