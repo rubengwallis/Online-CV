@@ -305,7 +305,7 @@ section {
     }
 
     .wrapper {
-        background: url("/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
+        background: url("../images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
