@@ -298,7 +298,7 @@ section {
 
 
 
-@media (max-width:1240px) {
+@media (max-width:1028px) {
 
     #title {
         display: inline-block;
@@ -314,11 +314,11 @@ section {
     }
 
     .title-row h2{
-        font-size: 1.5rem;
+        font-size: .75rem;
         padding: 0;
     }
     .title-row h1 {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
         padding: 0;
     }
     .quote-container {
@@ -331,11 +331,11 @@ section {
     }
 
     #quote-section h1 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .about-text {
-        font-size: 1rem;
+        font-size: 0.5rem;
         padding-left: 20%;
     }
 
@@ -343,19 +343,27 @@ section {
         width: 50%;
         padding-top: 0;
     }
-    
-    #content  .header {
+
+    .header {
         padding-top: 0;
-        font-size: 1.5rem;
-    }
-    
-     #content h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
+    #content {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    #content .container-fluid {
+        padding-bottom: 50%;
+    }
 
     #content .feature-icon {
     transform: scale(0.4);
+    }
+
+    #content h3 {
+        font-size: .5rem;
     }
 
 
@@ -373,25 +381,36 @@ section {
         margin: auto;
         padding: 0;
         color: white;
-        font-size: 1rem;
-    }
-    
-     #projects h4 {
-        font-size: 1.2rem;
+        font-size: .5rem;
     }
 
     #projects .container-fluid {
-        width:50%;
-        height: 50%;
+        margin: 0;
+        height: 20%;
     }
 
-    #projects.row {
-        padding-bottom: 20%;
+    .project-h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-right: 20%;
     }
 
     #projects iframe {
-        width: 100%;
+        width: 80%;
         height: 40%;
+    }
+
+    .python-game {
+        width: 50%;
+    }
+
+    #projects .hint {
+        font-size: 0.5rem;
+    }
+
+    .uxui-img {
+        width: 50%;
+        margin: auto;
     }
 
     #projects .python-grid {
@@ -399,9 +418,20 @@ section {
         place-items: center;
         align-content: center;
         text-align: center;
-        width: 100%;
-        margin: auto;
-        padding: 10%;
+        width: 80%;
+        padding: 10% 20%;
+    }
+
+    .projects-container {
+        margin: 0;
+    }
+
+    #projects h4 {
+        font-size: 0.6rem;
+    }
+
+    .projects-box {
+        margin: 0;
     }
 
     
@@ -410,9 +440,9 @@ section {
         place-items: center;
         align-content: center;
         text-align: center;
-        width: 100%;
-        margin: auto;
-        padding: 10%;
+        width: 80%;
+        padding: 10% 20%;
+
     }
 
 
@@ -425,6 +455,35 @@ section {
         height: auto;
         margin: auto;
         padding: 10%;
+        padding-right: 15%;
+    }
+
+    .habitual {
+        display: block;
+        position: relative;
+        margin: auto;
+        right: 15%;
+    }
+    
+
+
+    .tindog-img {
+        width: 50%;
+    }
+
+    .tindog {
+        display: block;
+        position: relative;
+        right: 20%;
+    }
+
+    .tindog h4 {
+        width: 50%;
+    }
+    
+
+    .footer-container {
+        padding-top: 20%;
     }
 
 
